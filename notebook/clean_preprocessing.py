@@ -232,7 +232,7 @@ def main() -> None:
     labelling_file = (
         base_dir / "data" / "data_labelling" / "Data_Komentar_KSP_labelling.xlsx"
     )
-
+    
     print("=== TAHAP 1: PREPROCESSING DATASET MENTAH ===")
     df_raw = load_raw_datasets(raw_dir)
     df_processed = process_dataset(df_raw)
