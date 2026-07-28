@@ -1,6 +1,6 @@
 # Analisis Sentimen Publik terhadap Program Kartu Sumbawa Pintar (KSP)
 
-Dokumentasi komprehensif alur pengolahan data (*data pipeline*), analisis eksplorasi, pelabelan, hingga pemodelan machine learning untuk **Analisis Sentimen Publik terhadap Program Kartu Sumbawa Pintar (KSP) Kabupaten Sumbawa**. Dokumen ini disusun sebagai bagian dari dokumentasi resmi karya tulis ilmiah (skripsi).
+Dokumentasi komprehensif alur pengolahan data (*data pipeline*), analisis eksplorasi, pelabelan, hingga pemodelan machine learning untuk **Analisis Sentimen Publik terhadap Program Kartu Sumbawa Pintar (KSP) Kabupaten Sumbawa**.
 
 ---
 
