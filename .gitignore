@@ -1,0 +1,45 @@
+# ==========================================
+# Python & Jupyter Notebook Cache / Temporary
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================================
+# Virtual Environment Folder
+# ==========================================
+ksp_sumbawa/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Data Privacy: Dataset CSV & Excel Files
+# (Abaikan semua berkas CSV & Excel agar data publik/privat tidak terpublish)
+# ==========================================
+data/dataset/*.csv
+data/proceed_dataset/*.csv
+data/proceed_dataset/*.xlsx
+data/data_labelling/*.xlsx
+
+# Kecualikan file README.md dan .gitkeep di folder data
+!data/**/README.md
+!data/**/.gitkeep
+
+# ==========================================
+# Model Binaries (Opsional: Abaikan file model joblib jika tidak ingin dipublish)
+# ==========================================
+# notebook/model/*.joblib
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

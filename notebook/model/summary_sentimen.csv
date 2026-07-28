@@ -1,0 +1,5 @@
+Algorithm,Best Params,Accuracy,Precision Macro,Recall Macro,F1 Macro,Tuning Time (s)
+Naive Bayes,"{'clf__alpha': np.float64(0.051168988591604896), 'tfidf__max_features': 5000}",0.7368,0.6623,0.6089,0.6293,1.53
+KNN,"{'clf__metric': 'cosine', 'clf__n_neighbors': 4, 'clf__weights': 'distance', 'tfidf__max_features': 10000}",0.7263,0.6661,0.5918,0.6159,1.38
+SVM,"{'clf__C': np.float64(1.6599452033620266), 'clf__gamma': 'scale', 'clf__kernel': 'linear', 'tfidf__max_features': None}",0.7368,0.643,0.5575,0.5823,3.96
+Random Forest,"{'clf__max_depth': None, 'clf__min_samples_split': 5, 'clf__n_estimators': 121, 'tfidf__max_features': None}",0.7263,0.6945,0.5306,0.5651,32.91
