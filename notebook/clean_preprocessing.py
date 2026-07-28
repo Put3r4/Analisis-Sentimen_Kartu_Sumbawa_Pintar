@@ -227,10 +227,10 @@ def save_processed_dataset(df_final: pd.DataFrame, output_dir: Path) -> None:
 def main() -> None:
     """Fungsi utama eksekusi pipeline preprocessing data."""
     base_dir = Path(__file__).resolve().parent.parent
-    raw_dir = base_dir / "data_scraping" / "dataset"
-    out_dir = base_dir / "data_scraping" / "fix_dataset"
+    raw_dir = base_dir / "data" / "dataset"
+    out_dir = base_dir / "data" / "proceed_dataset"
     labelling_file = (
-        base_dir / "data_scraping" / "data_labelling" / "Data_Komentar_KSP_labelling.xlsx"
+        base_dir / "data" / "data_labelling" / "Data_Komentar_KSP_labelling.xlsx"
     )
 
     print("=== TAHAP 1: PREPROCESSING DATASET MENTAH ===")
