@@ -17,14 +17,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# ==========================================
-# Data Privacy: Dataset CSV & Excel Files
-# (Abaikan semua berkas CSV & Excel agar data publik/privat tidak terpublish)
-# ==========================================
-data/dataset/*.csv
-data/proceed_dataset/*.csv
-data/proceed_dataset/*.xlsx
-data/data_labelling/*.xlsx
 
 # Kecualikan file README.md dan .gitkeep di folder data
 !data/**/README.md
